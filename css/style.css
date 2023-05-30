@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 nav {
     background-color: rgb(37, 94, 233);
     padding: 10px 0px;
@@ -35,12 +39,12 @@ header a, h1{
     align-items: center;
 }
 
-ul li {
+header ul li {
     display: inline;
     padding: 0px 10px;
 }
 
-li a {
+header a {
     text-decoration: none;
 }
 
@@ -167,38 +171,71 @@ h3 {
     background-color: rgb(94, 133, 230);
     color: rgb(227, 221, 221);
     padding: 10px 15px;
+    margin-bottom: 100px;
 }
 
 footer {
     background-color: black;
 }
 
-.flex-container-footer {
-    max-width: 980px;
-    height: 350px;
-    margin: auto;
+.container-footer {
     display: flex;
-    flex-direction: row-reverse;
+    margin: auto;
+    width: 980px;
 }
 
-.flex-container-footer:first-child {
-    background-color: salmon;
-    width: 40%;
+.large-content {
+    width: 20%;
+    color: purple;
 }
 
-.flex-item-thin-content {
-    background-color: turquoise;
-    width: 15%;
-    border-left: 1px dashed black;
-    border-right: 1px dashed black;
+.language-selection {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.italian-flag {
+    height: 1em;
+    padding: 3px;
+}
+
+.social-media img{
+    height: 1.5em;
+    background-color: white;
+}
+
+.thin-content {
+    width: 20%;
+}
+
+.thin-content ul {
+    display: flex;
+    margin-top: 35px;
+    flex-direction: column;
+}
+
+.thin-content ul li {
+    margin: 7px;
+}
+
+.thin-content ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.thin-content ul li:first-of-type a{
+    color: purple;
 }
 
 hr {
+    margin: auto;
     color: rgb(228, 210, 210);
+    width: 980px;
 }
 
-.flex-container-contacts-footer {
-    background-color: aquamarine;
+.container-contacts-footer {
+    background-color: black;
     max-width: 980px;
     margin: auto;
 }
@@ -207,13 +244,14 @@ footer section:last-of-type {
     padding-bottom: 0px;
 }
 
-.flex-item-contacts-footer {
+.contacts-footer {
     display: flex;
     justify-content: space-between;
     padding: 10px 0px;
 }
 
-.flex-item-contacts-footer > * {
-    background-color: rgb(228, 210, 210);
-    border: 1px dashed black;
+.footer-button {
+    color: white;
+    background-color: rgb(94, 133, 230);
+    padding: 5px 10px;
 }

@@ -9,21 +9,21 @@ nav {
     padding: 10px 0px;
 }
 
-.flex-container {
+.container-nav {
     background-color: rgb(37, 94, 233);
     max-width: 980px;
     margin: auto;
     display: flex;
 }
 
-.flex-item_logo {
+.logo {
     flex-grow: 1;
     display: flex;
     justify-content: flex-start;
     padding: 10px;
 }
 
-.flex-item_links {
+.links {
     flex-grow: 3;
     display: flex;
     padding: 10px;
@@ -40,7 +40,7 @@ li a {
     text-decoration: none;
 }
 
-.flex-item_login {
+.login {
     flex-grow: 1;
     display: flex;
     padding: 10px;
@@ -90,7 +90,7 @@ p {
     padding: 25px
 }
 
-.flex-container-header {
+.container-header {
     background-image: url(../img/jumbo.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -100,13 +100,13 @@ p {
     align-items: center;
 }
 
-.flex-item-header {
+.container-hero {
     margin: 75px 0px;
     background-color: transparent;
     text-align: center;
 }
 
-.flex-item-header button {
+.container-hero button {
     font-size: 18px;
     padding: 10px 15px;
 }

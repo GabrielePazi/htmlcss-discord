@@ -16,6 +16,10 @@ nav {
     display: flex;
 }
 
+header a, h1{
+    color: white;
+}
+
 .logo {
     flex-grow: 1;
     display: flex;
@@ -49,35 +53,12 @@ li a {
 
 .login-button {
     padding: .3rem .7rem;
-}
-
-.white-button {
-    border: 0px;
-    border-radius: 20px;
-}
-
-.white-button:hover {
-    color: rgb(37, 94, 233);
-}
-
-.black-button {
-    border: 0px;
-    color: white;
-    border-radius: 20px;
-    background-color: black;
-    padding: 3px 7px;
-}
-
-.black-button:hover {
-    color: lightgray;
-}
-
-.white-text {
-    color: white;
-}
-
-.black-text {
     color: black;
+}
+
+.button {
+    border: 0px;
+    border-radius: 20px;
 }
 
 h1 {
@@ -87,7 +68,8 @@ h1 {
 
 header p {
     font-size: 20px;
-    padding: 25px
+    padding: 25px;
+    color: white;
 }
 
 .container-header {
@@ -109,6 +91,18 @@ header p {
 .container-hero button {
     font-size: 18px;
     padding: 10px 15px;
+}
+
+.download-button {
+    padding: 3px 7px;
+    margin: 5px;
+}
+
+.browser-button {
+    padding: 3px 7px;
+    background-color: black;
+    color: white;
+    margin: 5px;
 }
 
 main section:nth-child(even) {
@@ -147,11 +141,32 @@ section p {
     flex-grow: 1;
 }
 
-.container-giga-content {
-    height: 600px;
-    background-color: green;
+.container-giga-content{
+    text-align: center;
     flex-grow: 1;
-    border: 1px dashed black;
+}
+
+.container-main-download {
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    padding: 35px;
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.download-main {
+    font-size: 18px;
+    margin: auto;
+    display: block;
+    background-color: rgb(94, 133, 230);
+    color: rgb(227, 221, 221);
+    padding: 10px 15px;
 }
 
 footer {

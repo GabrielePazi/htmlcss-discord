@@ -85,7 +85,7 @@ h1 {
     padding: 20px
 }
 
-p {
+header p {
     font-size: 20px;
     padding: 25px
 }
@@ -119,27 +119,35 @@ section {
     padding: 20px 0px;
 }
 
-.flex-container-section {
+.container-section {
     max-width: 980px;
     margin: auto;
     display: flex;
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 
-.flex-item-big-content {
-    background-color: rgb(54, 54, 239);
+section h2 {
+    font-size: 35px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 20px;
+}
+
+.container-big-content {
     height: 400px;
     flex-grow: 3;
-    border: 1px dashed black;
 }
 
-.flex-item-small-content {
-    background-color: rgb(246, 119, 140);
+.container-small-content {
     height: 400px;
     flex-grow: 1;
-    border: 1px dashed black;
 }
 
-.flex-item-giga-content {
+.container-giga-content {
     height: 600px;
     background-color: green;
     flex-grow: 1;
